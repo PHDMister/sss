@@ -1,0 +1,479 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShaderVariants
+  m_Shaders:
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: a0309f8a66ac47343b7e0f8d61eb2283, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: LIGHTMAP_ON
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _BASEMAP
+          _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: LIGHTMAP_ON _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _BASEMAP _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _BASEMAP _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON UNITY_HDR_ON _BASEMAP _DEPTH_NO_MSAA
+          _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _BASEMAP _DEPTH_NO_MSAA
+          _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _ADDITIONAL_LIGHTS _BASEMAP
+          _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _BASEMAP
+          _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: UNITY_HDR_ON _DEPTH_NO_MSAA _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+          _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA _MAIN_LIGHT_SHADOWS
+        passType: 0
+  - first: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: 65df88701913c224d95fc554db28381a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: e7857e9d0c934dc4f83f270f8447b006, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: c49e63ed1bbcb334780a3bd19dfed403, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _DITHERING _FXAA
+        passType: 0
+  - first: {fileID: 4800000, guid: c43606e7327722642803fe8b0758c528, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS RGBM _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS RGBM _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: c242b9f7499f4a649aefa4cee4d8974e, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: 235d831fcbf284e42a36ea443a978b17, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 13
+  - first: {fileID: 4800000, guid: a417e9d82146cd64da9ee101cdb7c896, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: _EMISSION
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON UNITY_HDR_ON _DEPTH_NO_MSAA
+          _EMISSION
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _EMISSION
+        passType: 13
+  - first: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 13
+  - first: {fileID: 4800000, guid: a6ec5a303c58f1a4f97ec3668bb51dd3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON LIGHTPROBE_SH _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: _EMISSION
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _DEPTH_NO_MSAA _EMISSION
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON LIGHTPROBE_SH _DEPTH_NO_MSAA
+          _EMISSION
+        passType: 13
+      - keywords: _CUSTOMREFLECTION
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _CUSTOMREFLECTION _DEPTH_NO_MSAA
+          _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON UNITY_HDR_ON _CUSTOMREFLECTION
+          _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+  - first: {fileID: 4800000, guid: b609f1f786e371d4c937ceb40d0b976a, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: d9be7a57d25d20845bcb8104574fc909, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _EMISSION
+        passType: 13
+  - first: {fileID: 4800000, guid: 7a4bd93bdcb9447428e03ec402a437b6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _METALLICSPECGLOSSMAP
+          _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA _METALLICSPECGLOSSMAP
+          _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA _METALLICSPECGLOSSMAP
+          _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+  - first: {fileID: 4800000, guid: 9c8f3d40a1c25af40bd51a2350ae621b, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 13
+  - first: {fileID: 4800000, guid: bca5854cd8ffda84180b36dc4d0e647f, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _ALPHATEST_ON _DEPTH_NO_MSAA
+        passType: 13
+  - first: {fileID: 4800000, guid: 1d64b4ed643a1074b82304f68744eeaf, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 13
+  - first: {fileID: 4800000, guid: 4db9576f76dab1e43aa045c87add9a71, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _DEPTH_NO_MSAA
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 13
+  - first: {fileID: 4800000, guid: ceeb7fc5554d6ce4f92ab5d0f0b91d86, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: c1f258554a3fad94abb6aec312c91f91, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _BASEMAP
+        passType: 13
+      - keywords: _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+          _NORMALMAP
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+          _NORMALMAP
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+          _NORMALMAP
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+          _METALLICSPECGLOSSMAP _NORMALMAP
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+          _METALLICSPECGLOSSMAP _NORMALMAP
+        passType: 13
+      - keywords: _BASEMAP _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _BASEMAP _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+          _METALLICSPECGLOSSMAP _NORMALMAP
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _BASEMAP _DEPTH_NO_MSAA
+          _ENVIRONMENTREFLECTIONS_OFF _METALLICSPECGLOSSMAP _NORMALMAP
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _BASEMAP _DEPTH_NO_MSAA
+          _ENVIRONMENTREFLECTIONS_OFF _METALLICSPECGLOSSMAP _NORMALMAP
+        passType: 13
+  - first: {fileID: 4800000, guid: 14ed090db4d18704895be0155b244c07, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: LIGHTMAP_ON
+        passType: 13
+      - keywords: _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: LIGHTMAP_ON _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON UNITY_HDR_ON _DEPTH_NO_MSAA
+          _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTMAP_ON UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _EMISSION _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+  - first: {fileID: 4800000, guid: 63b3c74734fe93b4a8f6df8ad60969b9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+          _METALLICSPECGLOSSMAP _NORMALMAP _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+          _METALLICSPECGLOSSMAP _NORMALMAP _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+          _METALLICSPECGLOSSMAP _NORMALMAP _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+          _ENVIRONMENTREFLECTIONS_OFF _METALLICSPECGLOSSMAP _NORMALMAP _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+  - first: {fileID: 4800000, guid: 5e44d226813307f469b8de1f095896e1, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _ADDITIONAL_LIGHTS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH UNITY_HDR_ON _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: UNITY_UI_CLIP_RECT
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_UI_CLIP_RECT _DEPTH_NO_MSAA
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_UI_CLIP_RECT _ADDITIONAL_LIGHTS
+          _DEPTH_NO_MSAA
+        passType: 0
+  - first: {fileID: 4800000, guid: e2d59a438653b6340a204b70e971530a, type: 3}
+    second:
+      variants:
+      - keywords: _BASEMAP
+        passType: 13
+      - keywords: _BASEMAP _ENVIRONMENTREFLECTIONS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _BASE _BASEMAP _DEPTH_NO_MSAA _ENVIRONMENTREFLECTIONS_OFF
+          _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _BASE _BASEMAP _DEPTH_NO_MSAA
+          _ENVIRONMENTREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _BASE _BASEMAP _DEPTH_NO_MSAA
+          _ENVIRONMENTREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
+        passType: 13
