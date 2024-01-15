@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterWave
+  m_Shader: {fileID: 4800000, guid: 2fcaeed8c37d5fa4da07ee83ce3d70c7, type: 3}
+  m_ShaderKeywords: _CAUSTICS_ON _DISTORTFIX_ON _DYNAMICMOTION_ON _FOAM_ON _UNDERWATER_ON
+    _VERTEXWAVE_ON _WATERQULIATY_HIGH
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2999
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CausticsTex:
+        m_Texture: {fileID: 2800000, guid: f7eca5a8da71d274a935b7ae77479b8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamNoise:
+        m_Texture: {fileID: 2800000, guid: b8850342fb8b1e846ac3807e35ec1685, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectCube:
+        m_Texture: {fileID: 8900000, guid: 60b2bb0f50c9ee341adeca5270121104, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormalLarge:
+        m_Texture: {fileID: 2800000, guid: 99f2b89899f133e45b6de05017ad4628, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormalSmall:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.9
+    - _AlphaCutoff: 0.5
+    - _Base: 0
+    - _Caustics: 1
+    - _CausticsIntensity: 1.4
+    - _CausticsScale: 20
+    - _Comp: 3
+    - _DayIntensity: 1
+    - _DistortFix: 1
+    - _FOAM: 1
+    - _FallOff: 0.155
+    - _Foam: 0
+    - _FoamOffset: 0
+    - _FoamRange: 0.5
+    - _Fresnel: 0
+    - _FresnelIntensity: 0.5
+    - _ISBULID: 0
+    - _LargeNormal: 0
+    - _LargeNormalIntensity: 0.3
+    - _LargeNormalSpeed: -3
+    - _LargeNormalTiling: 100
+    - _MotionVertexDisplacement: 1
+    - _Op: 0
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _Reflect: 0
+    - _ReflectDistort: 1
+    - _ReflectExhance: 1
+    - _ReflectIntensity: 0.1
+    - _ReflectionAngle: 5.99
+    - _ShoreDistance: 0.5
+    - _Size: 0.189
+    - _SmallNormalIntensity: 0.1
+    - _SmallNormalSpeed: 5
+    - _SmallNormalTiling: 10
+    - _SparklesAmount: 0.2
+    - _SparklesIntensity: 0.1
+    - _Splakes: 0
+    - _Stencil: 1
+    - _StencilRef: 0
+    - _UNDERWATER: 1
+    - _Under: 0
+    - _UnderWaterDark: 0.4
+    - _UnderWaterDistort: 8
+    - _VERTEXWAVE: 1
+    - _WaterDeep: 25
+    - _WaterDeep1: 19.02
+    - _WaterQuliaty: 2
+    - _Wave: 0
+    - _WaveDistance: 0.01
+    - _WaveFadeEnd: 250
+    - _WaveFadeStart: 10
+    - _WaveHeight: 0.4
+    - _WaveNormalStr: 0.1
+    - _WaveSpeed: 0.8
+    - _XTilling: 1
+    - _YTilling: 0
+    m_Colors:
+    - _CausticsSpeed: {r: -8, g: 0, b: 0, a: 0}
+    - _DeepColor: {r: 0.3372549, g: 0.6763865, b: 0.85882354, a: 1}
+    - _Direction: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamNoiseSpeed: {r: 0, g: -0.1, b: 0, a: 0}
+    - _FresnelColor: {r: 0.38823533, g: 0.70980394, b: 0.9960785, a: 1}
+    - _ShallowColor: {r: 0.30588236, g: 0.7921569, b: 0.7611312, a: 1}
+    - _SubWaveDirection: {r: -1, g: -1, b: -1, a: -1}
+    - _WaveColor: {r: 0.16583595, g: 0.55895084, b: 0.8113208, a: 1}
+  m_BuildTextureStacks: []
