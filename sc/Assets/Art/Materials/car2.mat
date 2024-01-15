@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: car2
+  m_Shader: {fileID: 4800000, guid: 41da62652b8abe24ab2a6a4a38660124, type: 3}
+  m_ShaderKeywords: _EMISSION _ENVIRONMENTREFLECTIONS_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 0b21d3bfe400726439713061b15d65ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: e6d38cc44e9558043904824b9e77a43d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceMask:
+        m_Texture: {fileID: 2800000, guid: e70164853b53a484286521dc19200aeb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 2800000, guid: c2cb1a1443ed53641b0e471f2cdd576a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 29a6009c633e6524196872d9c0772bc5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowMap:
+        m_Texture: {fileID: 2800000, guid: 3fced147866f7cd458b57b1876bb3d5d, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _SnowNormal:
+        m_Texture: {fileID: 2800000, guid: 5988edbe3c3a6504aa31aad3ed395493, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO: 0.5
+    - _Base: 1
+    - _Comp: 8
+    - _CullMode: 2
+    - _DirLightIntensity: 1
+    - _Emission: 1
+    - _EmissionStrength: 1
+    - _EnvironmentReflections: 1
+    - _Ice: 1
+    - _IceIntensity: 0
+    - _IceLength: 1
+    - _IceMaskTilling: 1
+    - _IceNormalIntensity: 0.3
+    - _LightIntensitiy: 1
+    - _Lighting: 1
+    - _Metallic: 1
+    - _NormalIntensity: 1
+    - _Op: 2
+    - _PBRIntput: 1
+    - _ReadMask: 255
+    - _Smoothness: 2
+    - _SpecShininess: 0
+    - _Stencil: 1
+    - _StencilRef: 0
+    - _WriteMask: 255
+    - _float_tooltip: 1
+    - _normal: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DarkColor: {r: 0.4528302, g: 0, b: 0.331097, a: 1}
+    - _EmissColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HightColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
